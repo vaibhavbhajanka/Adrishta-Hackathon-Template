@@ -54,18 +54,18 @@ class HomeScreen extends StatelessWidget {
             ),
             ReusableCard(
               color: Colors.blueAccent,
-              icon: MdiIcons.vote,
-              title: 'Candidates',
+              icon: MdiIcons.gestureTap,
+              title: 'Voter',
               onPressed: (){
+                Get.to(VoterLoginScreen());
                 // Navigator.pushNamed(context, RegistrationScreen.id);
               },
             ),
             ReusableCard(
               color: Colors.lightBlueAccent,
-              icon: MdiIcons.gestureTap,
-              title: 'Voter',
+              icon: MdiIcons.vote,
+              title: 'Results',
               onPressed: (){
-                Get.to(VoterLoginScreen());
                 // Navigator.pushNamed(context, RegistrationScreen.id);
               },
             ),
