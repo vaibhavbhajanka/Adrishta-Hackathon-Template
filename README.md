@@ -22,27 +22,18 @@ gets only vote for any available post.
 * Results of the voting can be checked with the "Results" button. After the voting lines are disabled no voter is 
 allowed to vote and thus the results at the time would be final.
 
-#### Architecture Diagram
-
-Affix an image of the flow diagram/architecture diagram of the solution
-
 #### Technical Description
 
-An overview of:
-* What technologies/versions were used
+* Technologies/versions - Flutter, VS Code, GitHub
 
-* Setup/Installations required to run the solution
-
-* Instructions to run the submitted code
-
-### Screenshots
-Affix the relevant screenshots of the developed project here.
+* To Run - Use Android Studio, VS Code 
+  Use version control in Android Studio to import the project from GitHub
 
 ### Team Members
 List of team member names and email IDs with their contributions.
 |Member Name|Email|Contribution|
 |-----------|-----|------------|
-|Vaibhav Bhajanka|vaibhavbhajanka@gmail.com||
+|Vaibhav Bhajanka|vaibhavbhajanka@gmail.com|Frontend/Backend|
 
 ### References
 Affix links to the online tools/repositories/blogs etc., which helped you along the development of the project
