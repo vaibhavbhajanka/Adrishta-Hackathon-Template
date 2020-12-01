@@ -1,21 +1,26 @@
 ## Team Number 39 - MY VOTE APP
 
-The participants are required to fork this repository and create a public Github repository under their own username (Single repository per team). *Clone the repo on your local system and build on top of that*
-
-The following created sections in this README.md need to be duly filled, highlighting the denoted points for the solution/implementation. 
-
-**Please feel free to create further sub-sections in this markdown.** The idea is to understand all the particulars of your solution in a singular document.
-
 ### Project Overview
 
-A brief description of 
-* What problem did the team try to solve?
+* We know that in the present scenario in-person voting has become quiet cumbersome and tedious. 
+  Still people are trying to figure out ways for polling with heightened security etc.
+  But these methods raise major saftey concerns in such trying times.
 
-* What is the proposed solution?
+* My Vote is an android app which allows you to conduct elections according to your convenience
+  whether it be a College Council election or Departmental election etc. 
 
 ### Solution Description
 
-Explain your solution to the problem in detail here.
+* My Vote app has interfaces for both the admin and the voters. The admin needs to log in to their account 
+for conduction of the polls i.e.,mention the available posts and the respective candidates. Also he/she will
+decide when the voting lines get enabled/disabled.
+
+* Voters need to login to their account in order to cast their vote. On the basis of the data provided different 
+polls are created for the different posts. Once a voter submits the votes they are supposed to logout as one person 
+gets only vote for any available post.
+
+* Results of the voting can be checked with the "Results" button. After the voting lines are disabled no voter is 
+allowed to vote and thus the results at the time would be final.
 
 #### Architecture Diagram
 
