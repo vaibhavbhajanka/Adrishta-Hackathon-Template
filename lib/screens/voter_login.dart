@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:myvote/components/reusable_gradient.dart';
 import 'package:myvote/components/reusable_login_card.dart';
+import 'package:get/get.dart';
+import 'voter_main.dart';
 
 class VoterLoginScreen extends StatefulWidget {
   @override
@@ -24,6 +26,9 @@ class VoterLoginScreenState extends State<VoterLoginScreen> {
                   width: MediaQuery.of(context).size.width - 20,
                   child: ReusableLoginCard(
                     title: 'Voter Login',
+                    onPressed: (){
+                      Get.to(VoterMain());
+                    },
                   ),
                 ),
               ],

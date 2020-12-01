@@ -5,8 +5,9 @@ import 'reusable_field.dart';
 class ReusableLoginCard extends StatelessWidget {
 
   final String title;
+  final Function onPressed;
 
-  ReusableLoginCard({this.title});
+  ReusableLoginCard({this.title,this.onPressed});
 
   @override
   Widget build(BuildContext context) {
@@ -55,9 +56,7 @@ class ReusableLoginCard extends StatelessWidget {
           ReusableButton(
             color: Colors.blueGrey,
             text: "LOGIN",
-            onPressed: (){
-              
-            },
+            onPressed: onPressed,
           ),
         ],
       ),
