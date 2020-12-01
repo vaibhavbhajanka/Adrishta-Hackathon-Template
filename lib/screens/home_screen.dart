@@ -3,8 +3,8 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:myvote/components/reusable_card.dart';
 import 'package:get/get.dart';
-import 'voter_login.dart';
-import 'admin_login.dart';
+import 'admin.dart';
+import 'voter.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -46,7 +46,7 @@ class HomeScreen extends StatelessWidget {
               icon: MdiIcons.accountSupervisor,
               title: 'Admin',
               onPressed: (){
-                Get.to(AdminLoginScreen());
+                Get.to(Admin());
                 // Navigator.pushNamed(context, LoginScreen.id);
               },
             ),
@@ -63,7 +63,7 @@ class HomeScreen extends StatelessWidget {
               icon: MdiIcons.gestureTap,
               title: 'Voter',
               onPressed: (){
-                Get.to(VoterLoginScreen());
+                Get.to(Voter());
                 // Navigator.pushNamed(context, RegistrationScreen.id);
               },
             ),

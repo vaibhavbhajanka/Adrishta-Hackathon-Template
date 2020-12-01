@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:myvote/components/reusable_gradient.dart';
 import 'package:myvote/components/reusable_login_card.dart';
 
-class AdminLoginScreen extends StatefulWidget {
+class AdminSigninScreen extends StatefulWidget {
   @override
-  AdminLoginScreenState createState() => AdminLoginScreenState();
+  AdminSigninScreenState createState() => AdminSigninScreenState();
 }
 
-class AdminLoginScreenState extends State<AdminLoginScreen> {
+class AdminSigninScreenState extends State<AdminSigninScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +23,7 @@ class AdminLoginScreenState extends State<AdminLoginScreen> {
                 Container(
                   width: MediaQuery.of(context).size.width - 20,
                   child: ReusableLoginCard(
-                    title: 'Admin Login',
+                    title: 'Admin Sign-in',
                   ),
                 ),
               ],

@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 class ReusableButton extends StatelessWidget {
   final Color color;
   final String text;
+  final Function onPressed;
 
-  ReusableButton({this.color, this.text});
+  ReusableButton({this.color, this.text, this.onPressed});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +29,7 @@ class ReusableButton extends StatelessWidget {
             ),
           ),
           color: color,
-          onPressed: () {},
+          onPressed: onPressed,
         ),
       ),
     );

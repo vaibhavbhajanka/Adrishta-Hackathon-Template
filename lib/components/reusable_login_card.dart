@@ -55,6 +55,9 @@ class ReusableLoginCard extends StatelessWidget {
           ReusableButton(
             color: Colors.blueGrey,
             text: "LOGIN",
+            onPressed: (){
+              
+            },
           ),
         ],
       ),
