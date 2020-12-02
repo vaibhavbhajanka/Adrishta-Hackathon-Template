@@ -26,7 +26,7 @@ allowed to vote and thus the results at the time would be final.
 
 * Technologies/versions - Flutter, VS Code, GitHub
 
-* To Run - Use Android Studio, VS Code 
+* To Run - Use Android Studio, VS Code.
   Use version control in Android Studio to import the project from GitHub
 
 ### Team Members
@@ -38,4 +38,4 @@ List of team member names and email IDs with their contributions.
 ### References
 Affix links to the online tools/repositories/blogs etc., which helped you along the development of the project
 
-P.S: The project is still under development(Not completed due to time constraints).
+P.S: The project is still under development(Incomplete due to time constraints).
